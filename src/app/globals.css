@@ -1,27 +1,93 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@media (width < 1400px) {
+  html{
+    font-size: 9.5px;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@media (width < 1300px) {
+  html{
+    font-size: 9px;
   }
 }
+
+@media (width < 1200px) {
+  html{
+    font-size: 8.5px;
+  }
+}
+
+@media (width < 1100px) {
+  html{
+    font-size: 8px;
+  }
+}
+
+@media (width < 1000px) {
+  html{
+    font-size: 7.5px;
+  }
+}
+@media (width < 900px) {
+  html{
+    font-size: 7px;
+  }
+}
+
+@media (width < 800px) {
+  html{
+    font-size: 6.5px;
+  }
+}
+
+@media (width < 700px) {
+  html{
+    font-size: 6px;
+  }
+}
+
+@media (width < 600px) {
+  html{
+    font-size: 5.5px;
+  }
+}
+
+@media (width < 500px) {
+  html{
+    font-size: 5px;
+  }
+}
+
+@media (width < 400px) {
+  html{
+    font-size: 4.5px;
+    & .head{
+      font-size: 20px;
+    }
+  }
+}
+
+@media (width < 300px) {
+  html{
+    font-size: 4px;
+  }
+}
+
+
+
+
